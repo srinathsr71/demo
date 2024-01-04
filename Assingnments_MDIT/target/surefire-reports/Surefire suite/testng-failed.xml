@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test name="Surefire test">
+    <classes>
+      <class name="Assign_MDIT2.Parallel_1"/>
+      <class name="Assign_MDIT2.Parallel_2"/>
+    </classes>
+  </test> <!-- Surefire test -->
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="Assign_MDIT2.Parallel_1">
+        <methods>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- Assign_MDIT2.Parallel_1 -->
+      <class name="Assign_MDIT2.Parallel_2">
+        <methods>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- Assign_MDIT2.Parallel_2 -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
